@@ -5,12 +5,12 @@
 	<select id="selectAll" resultType="day4.back.backend.DTO.ElectricityBill">
 		<![CDATA[
 			SELECT
-				hour,
-				consumption,
-				unitprice,
-				cost
+				HOUR,
+				CONSUMPTION,
+				UNITPRICE,
+				COST
 			FROM
-				electric
+				ELECTRIC
 		]]>
 	</select>
 </mapper>
